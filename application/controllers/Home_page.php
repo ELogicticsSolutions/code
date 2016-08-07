@@ -21,6 +21,7 @@ class Home_page extends CI_Controller
 	}
 	public function authenticate()
 	{
+
 		$this->load->view('login_page');
 	}
 }
